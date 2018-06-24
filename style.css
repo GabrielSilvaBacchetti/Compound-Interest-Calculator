@@ -1,0 +1,48 @@
+body{
+	background: url("img.png") top;
+    background-size: 100%;
+}
+
+#title {
+	color: #CC0033;
+	font-size: 60px;
+	text-shadow: 3px 2px 1px #000000, 3px 1px 1px #303030;
+}
+
+#button {
+	background-color: #303030;
+	font-size: 25px;
+	color: #CC0033;
+	width: 120px;
+	height: 40px;
+	border-top-color: #000000;
+	border-bottom-color: #000000;
+	border-left-color: #000000;
+	border-right-color: #000000;
+	margin-right: 100px;
+	text-shadow: 3px 1px 1px #000000, 3px 1px 1px #303030;
+}
+
+.valores {
+	color: #CC0033;
+	font-size: 30px;
+	text-shadow: 3px 2px 1px #000000, 3px 1px 1px #303030;
+}
+
+.campos {
+	background-color: #303030;
+	color: white;
+	font-size: 25px;
+	width: 300px;
+	height: 35px;
+	border-top-color: #000000 ;
+	border-bottom-color: #000000 ;
+	border-left-color: #000000 ;
+	border-right-color: #000000 ;
+}
+
+#site {
+    position: center;
+}
+
+

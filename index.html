@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Compound Interest Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+  </head>  
+<body>
+  <h1 id="title" align="center">Compound  Interest  Calculator</h1>
+  <form name="myform">
+    <div id="site" align="center">
+      <pre align="center">
+        <h1 id="capital" class="valores" align="center">Capital Investido:     <input type="text" name="capitalInvestido" class="campos"></h1>
+        <h1 id="juros" class="valores" align="center">Taxa de Juros(%):      <input type="text" name="taxaJuros" class="campos"></h1>
+        <h1 id="tempo" class="valores">Tempo em Anos:         <input type="text" name="tempoAnos" class="campos"></h1>
+        <input type="button" name="calc" value="Calculate" id="button" onclick="calculate(myform)" align="center">
+      </pre>
+      <pre align="center">
+        <h1 id="jurosT" class="valores" align="center">Juros Totais:          <input type="text" name="jurosTotais" class="campos"></h1>
+        <h1 id="mont" class="valores">Montante(Valor Total): <input type="text" name="montante" class="campos"></h1>
+      </pre align="center">
+    </div>  
+  </form>
+
+</body>
+</html>
